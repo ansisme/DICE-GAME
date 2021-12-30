@@ -7,10 +7,10 @@ randomimage="dice"+randomnum2+".png";
 document.querySelectorAll("img")[1].setAttribute("src","images/"+ randomimage);
 
 if (randomnum1> randomnum2) {
-    document.querySelector("h1").innerHTML="Player 1 Wins";
+    document.querySelector("h1").innerHTML="⚡ Player 1 Wins !";
   }
 else if (randomnum2 > randomnum1) {
-    document.querySelector("h1").innerHTML="Player 2 wins";
+    document.querySelector("h1").innerHTML="Player 2 wins ! ⚡";
   }
 else {
     document.querySelector("h1").innerHTML="Draw";
